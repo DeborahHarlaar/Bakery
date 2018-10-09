@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bakery</title>
+		<link href="https://fonts.googleapis.com/css?family=Alegreya:400,700|Playfair+Display:700|Roboto:300,400|Shadows+Into+Light|Dancing+Script" rel="stylesheet">
+		<link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script type="text/javascript" src="navbar.js"></script>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<div class="container">
+			<div class="header">
+				<nav class="allNavigation" id="topNavigation">
+						<h1 class="logo">Gustoso</h1>
+						<div class="navigation">
+						<a href="#welcome">Welcome</a>
+						<a href="#artOfCakes">Art of cakes</a>
+						<a href="#perfectPancakes">Recipes</a>
+						<a href="#breakfast">Breakfast</a>
+						<a href="#sandwich">Our Specialty</a>
+						</div>
+					<div class="navIcon">
+						<a href="#"><i class="fab fa-twitter"></i></a>
+						<a href="#"><i class="fab fa-facebook-f"></i></a>
+						<a href="#"><i class="fab fa-instagram"></i></a>
+					</div>
+				</nav>
+				<a href="javascript:void(0);" onclick="navBar()"><i class="fas fa-bars" aria-hidden="true"></i></a>
+				<div class="headerContent content" id="welcome">
+					<h1>Pastry with love</h1>
+					<h2>We’re bringing you fresh ingredients every<br>day in ways you can’t resist.</h2>
+					<button>Our Menu</button>
+				</div>
+			</div>
+
+			<div class="artOfCakes" id="artOfCakes">
+				<div class="content">
+					<div class="artOfCakesLeft">
+						<h3>Art of cakes</h3>
+						<h4>We create delicious Memories</h4>
+						<p>Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. tsemper libero, sit amet adipiscing sem neque sed.</p>
+						<div class="title">Chef Cook</div>
+						<div class="chefCook">
+							<div class="description">Benito</div>
+							<img src="chefCook.jpg">					<!-- Photo by Thomas Marban on Unsplash -->
+							<div class="description">Gaspare</div>
+						</div>
+						<div class="quote">
+							<i class="fas fa-quote-left"></i>
+							<blockquote>Unique creations for unique occasions.</blockquote>
+							<i class="fas fa-quote-right"></i>
+						</div>
+					</div>
+					<div class="artOfCakesRight">
+						<div class="images">
+							<div class="image">
+								<img src="flour.jpg">					<!-- Photo by Wine Dharma on Unsplash -->
+							</div>
+							<div class="image">
+								<img src="egg.jpg">						<!-- Photo by Elle Hughes on Unsplash -->
+							</div>
+							<div class="image">
+								<img src="cake.jpg">					<!-- Photo by Micheile Henderson on Unsplash -->
+							</div>
+							<div class="image">
+								<img src="fruit.jpg">					<!-- Photo by Brooke Lark on Unsplash -->
+							</div>
+						</div>	
+					</div>
+				</div>
+			</div>
+
+			<div class="perfectPancakes" id="perfectPancakes">
+				<div class="content">
+					<div class="perfectPancakesLeft">
+						<img src="pancakes.jpg">						<!-- Photo by Ana Azevedo on Unsplash -->
+						<div class="foldOutMenu">
+							<i class="fas fa-bars fa-rotate-90"></i>
+						</div>
+					</div>
+					<div class="perfectPancakesRight">
+						<h3>Tasty pancakes</h3>
+						<h4>Season Favourite</h4>
+						<p>Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus.</p>
+						<div class="pancakeGallery">
+							<i class="fas fa-chevron-circle-left fa-2x"></i>
+							<div class="item">
+								<img src="perfectPancakesGallery1.jpg">	<!-- Photo by Pietro De Grandi on Unsplash -->
+							</div>
+							<div class="item">
+								<img src="perfectPancakesGallery2.jpg">	<!-- Photo by William Felker on Unsplash -->
+							</div>
+							<div class="item">
+								<img src="perfectPancakesGallery3.jpg">	<!-- Photo by Eszter Biró on Unsplash -->
+							</div>								
+							<i class="fas fa-chevron-circle-right fa-2x"></i>
+						</div>
+					</div>
+				</div>
+			<!--	<div class="top">
+					<p class="ready">Ready in</p>
+					<p class="time">40</p>
+					<p class="ready last">mins</p>
+				</div>-->
+			</div>
+
+			<div class="breakfast" id="breakfast">
+				<div class="content">
+					<div class="menue">
+						<div class="title">
+							<div class="breakfastTitle">Breakfast</div>
+						</div>
+						<div class="breakfastMenue">
+							<div class="menueItem">Full breakfast</div>
+							<div class="menueDescription">Duis ut tortor, et risus, vulputate pretium</div>
+							<div class="price">$12.49</div>
+						</div>
+						<div class="breakfastMenue">
+							<div class="menueItem">Toast &amp; Jam</div>
+							<div class="menueDescription">Suspendisse, tempus, nterdum</div>
+							<div class="price">$4.90</div>
+						</div>
+						<div class="breakfastMenue">
+							<div class="menueItem">Muffins</div>	
+							<div class="menueDescription">Fusce eget dui sodales est</div>	
+							<div class="price">$3.95</div>
+						</div>
+					</div>
+					<div class="read">
+						<div class="title">Your morning Escape with Flair</div>
+						<p>Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.</p>
+						<button>Read</button>
+					</div>
+				</div>
+			</div>
+
+			<div class="sandwich" id="sandwich">
+				<h3>The Jibarito sandwich</h3>
+				<h4>the best sandwich you’ve ever tasted!</h4>
+				<div class="content">
+					<div class="left">
+						<div class="ingredients">
+							<img src="wheat.jpg">	<!-- Photo by Dmitrij Paskevic on Unsplash -->
+							<h6>Class aptent</h6>
+							<p>Quot alienum persecuti ut eam, nam ad atqui primis nusquam.</p>
+						</div>
+						<div class="ingredients">
+							<img src="eggs.jpg">	<!-- Photo by Calum Lewis on Unsplash -->
+							<h6>Nulla eget</h6>
+							<p>Nullam dictum felis eu pede mollis pretium Integer tincidunt.</p>
+						</div>
+						<div class="ingredients">
+							<img src="cheese.jpg">	<!-- Photo by Anita Peeples on Unsplash -->
+							<h6>Sed nibh purus</h6>
+							<p>Aenean eleifend tellus leo ligula, porttitor eu, consequat vitae.</p>
+						</div>
+					</div>
+					<div class="right">
+						<div class="flex">
+							<div class="overlay">
+								<h4>Prep</h4>
+								<h3>15</h3>
+								<h5>mins</h5>
+							</div>
+							<div class="overlay">
+								<h4>Cook</h4>
+								<h3>35</h3>
+								<h5>mins</h5>
+							</div>
+							<div class="overlay overlayTop">
+								<p class="ready">Ready in</p>
+								<p class="time">50</p>
+								<p class="ready last">mins</p>
+							</div>
+						</div>
+	<!--					<button>Full Recipe</button>-->
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</body>
+</html>
